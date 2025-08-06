@@ -1,9 +1,3 @@
-
-
 export default function Home() {
-  return (
-    <div>
-      HOME PAGE
-    </div>
-  );
+  return <div className="bg-red">HOME PAGE</div>;
 }
