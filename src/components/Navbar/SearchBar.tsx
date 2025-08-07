@@ -2,7 +2,7 @@
 
 import { Search } from "lucide-react"
 
-const SearchBar = () => {
+export default function SearchBar() {
 
     return  (
         <div className="hidden sm:flex items-center gap-2 rounded-md ring-1 ring-gray-200 px-2 py-1 shadow-md">
@@ -11,5 +11,3 @@ const SearchBar = () => {
         </div>
     )
 }
-
-export default SearchBar;

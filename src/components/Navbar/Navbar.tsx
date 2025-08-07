@@ -5,7 +5,7 @@ import Link from "next/link";
 import SearchBar from "./SearchBar";
 import { Home, Bell, ShoppingCart } from "lucide-react"
 
-const Navbar = () => {
+export default function Navbar() {
     return (
         <nav className="w-full flex items-center justify-between border-b border-gray-200 pb-4">
             <Link href="/" className="flex items-center">
@@ -24,5 +24,3 @@ const Navbar = () => {
         </nav>
     )
 }
-
-export default Navbar;
